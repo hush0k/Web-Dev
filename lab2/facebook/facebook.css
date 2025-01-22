@@ -1,0 +1,262 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    height: 536px;
+    width: 100%;
+    padding-top: 72px;
+    padding-bottom: 112px;
+    background-color: #f2f4f7;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 980px;
+    height: 496px;
+    padding: 20px 0px;
+}
+
+.footer{
+    background-color: #ffffff;
+    padding: 0 20px;
+
+}
+
+.words{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 580px;
+    padding-right: 32px;
+    height: 300px;
+    margin-left: 55px;
+}
+
+.image{
+    height: 54px;
+    padding-top: 84px;
+    padding-bottom: 16px;
+}
+
+#logo{
+    width: 320px;
+    margin-left: -36px;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 28px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    padding-top: 5px;
+    margin-left: -8px;
+    width: 500px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 0;
+}
+
+#inputs-form {
+    background-color: #ffffff;
+    height: 314px;
+    width: 396px;
+    padding: 10px 0 24px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);;
+}
+
+.container{
+    width: 1088px;
+    display: flex;
+    flex-direction: row;
+}
+
+.form{
+    height: 456px;
+    width: 396px;
+    margin-top: 40px;
+    padding-right: 65px;
+}
+
+#inputs {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-input{
+    width: 364px;
+    padding: 6px 0;
+    display: inline;
+    justify-content: center;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid #2f7fff;
+    color: #1d2129;
+    box-shadow: 0 0 2px rgba(0, 92, 255, 0.3);
+}
+input:focus::placeholder {
+    color: #bfc2c9;
+}
+input{
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    font-size: 17px;
+    height: 22px;
+    color: #1d2129;
+    box-shadow: inset 0 1px 1px rgba(80, 80, 80, 0.1);
+}
+
+input::placeholder {
+    color: #8f9498;
+}
+
+
+
+#log-in{
+    width: 364px;
+    height: 54px;
+    padding-top: 6px;
+}
+
+#log-in-button{
+    width: 364px;
+    height: 48px;
+    margin-top: 4px;
+    padding: 0 16px;
+    background-color: #0866ff;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+}
+#log-in-button:hover{
+    background-color: #197ee8;
+}
+
+#forget-pass-id{
+    color: #0866ff;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-content: center;
+}
+
+#forget-pass-id:visited{
+    color: #0866ff;
+}
+
+#forget-pass-id:hover{
+    text-decoration: underline;
+}
+
+.forget-password{
+    margin-top: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#line{
+    border-bottom: 1px solid #dadde1;
+    margin: 20px 0;
+}
+
+#new-account{
+    height: 54px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 6px;
+}
+
+#new-acc-button{
+    width: 232px;
+    height: 48px;
+    padding: 0 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #49b72a;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#new-acc-button:hover{
+    background-color: #379f14;
+}
+
+#new-account-company{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 14px;
+    line-height: 1.4;
+}
+
+#create-page-link{
+    font-weight: bold;
+    color: black;
+}
+
+#create-page-link:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    width: 1088px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lang{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.lang li{
+    padding-left: 15px;
+    color: #838383;
+    font-size: 14px;
+}
+
+.lang a{
+    text-decoration: none;
+    color: #a9a9a9;
+}
+
+#second-line{
+    border-bottom: 1px solid #a9a9a9;
+    padding-top: 0;
+    width: 1088px;
+    margin-top: 5px;
+
+}
+
