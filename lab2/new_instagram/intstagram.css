@@ -1,0 +1,84 @@
+body{
+    display: block;
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container{
+    border: 2px solid #1c88c0;
+    background-color: #91a9c2;
+    height: 815px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    width: 380px;
+    margin-bottom: 12px;
+    border: 1px solid #1cc087;
+    background-color: #a8e0c8;
+    height: 582px;
+    background-image: url("img/home-phones-2x.png");
+    background-size: 468px 634px;
+    flex-basis: 380px;
+    margin-right: 32px;
+    align-self: center;
+    background-position: -46px 0;
+}
+
+.phone-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 27px;
+    margin-left: 112px;
+    box-sizing: border-box;
+    align-items: stretch;
+    position: relative;
+}
+
+.left img{
+    width: 250px;
+    height: 539px;
+
+
+}
+
+.right{
+    width: 350px;
+    border: 1px solid #1cc087;
+    background-color: #a8e0c8;
+    height: 740px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    max-width: 350px;
+}
+
+.form-container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(219, 219, 219);
+    margin: 0 0 10px;
+    padding: 10px 0;
+    background-color: white;
+}
+
+.image-logo{
+    width: 175px;
+    height: 60px;
+    display: inline-block;
+}
+
+
+
+footer{
+    border: 2px solid #45c01c;
+    background-color: #a6c49a;
+    height: 135px;
+}
