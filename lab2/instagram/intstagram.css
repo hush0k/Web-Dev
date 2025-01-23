@@ -321,7 +321,54 @@ button{
 
 
 footer{
-    border: 2px solid #45c01c;
-    background-color: #a6c49a;
     height: 135px;
+    padding: 0 16px;
 }
+
+.links-pages{
+    height: 83px;
+    margin-bottom: 52px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.links-container{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: stretch;
+    justify-content: flex-start;
+    align-self: auto;
+    flex-grow: 0;
+    flex-wrap: wrap;
+
+}
+
+.link-to-page{
+    width: fit-content;
+    margin: 0 8px 12px;
+}
+
+.link-to-page a{
+    text-decoration: none;
+    color: #737373;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.link-to-page a:hover{
+    text-decoration: underline;
+}
+
+.others{
+    color: #737373;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+
