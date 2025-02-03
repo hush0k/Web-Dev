@@ -8,11 +8,19 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .container{
-
+    max-width: 1920px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
 header{
     width: 100%;
@@ -370,7 +378,7 @@ main{
 
 .cards-container{
     width: 90%;
-    height: 444px;
+    height: 492px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -385,7 +393,7 @@ main{
     box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
     border: 1px solid #eae9e9;
     min-width: 150px;
-    height: 480px;
+    height: 492px;
 }
 
 .card img{
@@ -394,6 +402,7 @@ main{
 .card-body{
     padding: 24px 24px 0 24px;
     height: 175px;
+    box-sizing: border-box;
 }
 
 .card h2{
