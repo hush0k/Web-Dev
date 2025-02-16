@@ -1,3 +1,5 @@
+'use strict';
+
 const inputBox = document.getElementById('input-box');
 const listContainer = document.getElementById('list');
 
@@ -27,7 +29,10 @@ listContainer.addEventListener('click', function (e) {
     if(e.target.tagName === "LI") {
         e.target.classList.toggle("checked");
     } else if(e.target.tagName === "IMG"){
-        e.target.parentElement.remove();
+        let conf = confirm("Are you sure you want to delete?");
+        if(conf){
+            e.target.parentElement.remove();
+        }
     }
 }, false);
 
