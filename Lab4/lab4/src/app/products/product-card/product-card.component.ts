@@ -41,9 +41,10 @@ getRatingClass() {
 
 shareProductW() {
   const url = encodeURIComponent(this.link);
-  let shareUrl = 'https://wa.me/?text=Check+this+out:+${url}';
+  let shareUrl = `https://wa.me/?text=Check+this+out:+${url}`;
   window.open(shareUrl, '_blank');
 }
+
 shareProductT() {
   const url = encodeURIComponent(this.link);
   let shareUrl = `https://t.me/share/url?url=${url}&text=Check+this+out!`;

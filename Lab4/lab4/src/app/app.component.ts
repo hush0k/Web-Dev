@@ -2,10 +2,11 @@ import { Component } from '@angular/core';
 import {RouterOutlet, ɵEmptyOutletComponent} from '@angular/router';
 import {ProductCardComponent} from './products/product-card/product-card.component';
 import {NgForOf} from '@angular/common';
+import {KaspiHeadComponent} from './kaspi-head/kaspi-head.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ɵEmptyOutletComponent, ProductCardComponent, NgForOf],
+  imports: [RouterOutlet, ɵEmptyOutletComponent, ProductCardComponent, NgForOf, KaspiHeadComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
@@ -110,6 +111,7 @@ export class AppComponent {
       rating: 5,
       commentsNumber: 166,
       commentsLink: 'https://kaspi.kz/shop/p/apple-iphone-15-256gb-rozovyi-113137951/?c=750000000&tab=reviews'
-    }
+    },
+
   ]
 }
