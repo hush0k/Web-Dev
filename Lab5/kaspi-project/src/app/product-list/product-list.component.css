@@ -1,0 +1,13 @@
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-list{
+  width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 50px;
+  justify-items: center;
+}

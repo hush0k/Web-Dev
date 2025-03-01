@@ -1,0 +1,138 @@
+.card{
+  width: 320px;
+  height: 555px;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  place-self: center;
+}
+
+.img-container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  max-height: 335px;
+  min-height: 335px;
+  padding: 15px 0;
+  background-color: white;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.img-container img{
+  height: 300px;
+}
+
+.like{
+  width: 35px;
+  height: 35px;
+  border-radius: 6px;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+  background-color: #ffe4f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.like:hover{
+  background-color: #f8bfdb;
+
+}
+
+.like img{
+  height: 22px;
+  width: 22px;
+}
+
+
+.card-body{
+  width: 290px;
+  max-height: 140px;
+  min-height: 140px;
+}
+.card-body p{
+  margin: 0;
+}
+#category{
+  padding: 10px 0;
+  color: #9a2121;
+}
+.card-body h3{
+  margin: 0;
+  font-weight: 600;
+}
+.card-body a{
+  text-decoration: none;
+}
+.card-body a:hover{
+  text-decoration: underline;
+}
+.card-body a:visited{
+  color: black;
+}
+#desc{
+  padding: 10px 0;
+}
+.card-footer {
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 65px;
+  max-height: 65px;
+}
+
+.buy{
+  padding-left: 10px;
+}
+
+.price{
+  font-size: 15px;
+}
+.price span{
+  font-weight: bold;
+}
+#whatsapp{
+  padding-right: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#whatsapp:hover{
+  text-decoration: underline;
+}
+
+.content-footer{
+  width: 290px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.content-footer p{
+  margin: 0;
+}
+#second{
+  height: 35px;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#second button{
+  width: 245px;
+  height: 35px;
+  border-radius: 6px;
+  border: none;
+  background-color: #9a2121;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}

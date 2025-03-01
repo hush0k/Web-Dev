@@ -1,0 +1,29 @@
+<div class="card">
+  <div class="img-container">
+    <img [src]="product.imgSrc" alt="{{product.name}}">
+  </div>
+  <div class="card-body">
+    <p id="category">{{product.category}}</p>
+    <h3><a [href]="product.link" target="_blank">{{product.name}}</a></h3>
+    <p id="desc">{{product.description}}</p>
+  </div>
+  <div class="card-footer" id="first">
+    <div class="content-footer">
+      <div class="share">
+        <p id="whatsapp" (click)="shareProductW()">Whatsapp</p>
+      </div>
+      <div class="price">
+        <p>{{ product.price | number: '1.0-0'}} <span>KZT</span></p>
+      </div>
+    </div>
+    <div class="content-footer" id="second">
+      <div class="like" (click)="toggleLike()" [ngClass]="{ 'likked': product.isLiked }">
+        <img [src]="product.isLiked ? '/assets/img/like.png' : '/assets/img/dislike.png'" alt="like">
+      </div>
+      <div class="buy">
+        <button>КУПИТЬ</button>
+      </div>
+    </div>
+
+  </div>
+</div>

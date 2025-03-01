@@ -1,0 +1,21 @@
+<div class="header">
+  <div class="content">
+    <div class="img-content">
+      <a routerLink="/"><img src="https://kaspi.kz/img/Logo.svg" alt="logo"></a>
+    </div>
+    <div class="categories">
+      <ul>
+        <li><a routerLink="/category/Technology">Техника</a></li>
+        <li><a routerLink="/category/Books">Книга</a></li>
+        <li><a routerLink="/category/Clothing">Одежда</a></li>
+        <li><a routerLink="/category/Shoes">Обувь</a></li>
+        <li><a routerLink="/cart">Корзина <span class="like-counter">{{ totalLikes }}</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="container">
+
+  <router-outlet></router-outlet>
+</div>
+

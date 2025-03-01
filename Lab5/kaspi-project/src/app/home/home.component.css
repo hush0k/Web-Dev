@@ -1,0 +1,36 @@
+.welcome-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-text{
+  height: 120px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+
+.welcome-text h1{
+  font-size: 50px;
+}
+
+.welcome-text h1 span{
+  background-color: #d39999;
+}
+
+.images{
+  padding-top: 100px;
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#second{
+  width: 290px;
+}
+
+#second img{
+  width: 290px;
+}
