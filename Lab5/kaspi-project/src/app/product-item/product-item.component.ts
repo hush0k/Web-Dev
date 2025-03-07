@@ -2,7 +2,7 @@ import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {DecimalPipe, NgClass} from '@angular/common';
 import {Product} from '../product-list/product-list.component';
 
-let totalLike = 0
+let totalLike = 0;
 
 @Component({
   selector: 'app-product-item',

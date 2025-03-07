@@ -5,10 +5,7 @@ import {RouterLink} from '@angular/router';
 @Component({
   selector: 'app-category',
   standalone: true,
-  imports: [
-    NgOptimizedImage,
-    RouterLink
-  ],
+  imports: [],
   templateUrl: './category.component.html',
   styleUrl: './category.component.css'
 })

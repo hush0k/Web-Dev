@@ -12,6 +12,6 @@ import {ProductListComponent} from './product-list/product-list.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'kaspi-project';
+  title = 'aspic-project';
   // @Input() totalLikes!: number;
 }
