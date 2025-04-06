@@ -11,6 +11,7 @@ let totalLike = 0;
     DecimalPipe
   ],
   templateUrl: './product-item.component.html',
+  standalone: true,
   styleUrl: './product-item.component.css'
 })
 export class ProductItemComponent {

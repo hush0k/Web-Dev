@@ -16,6 +16,7 @@ export interface Product {
 
 let totalLikes = 0;
 
+// @ts-ignore
 @Component({
   selector: 'app-product-list',
   imports: [
